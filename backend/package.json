@@ -24,7 +24,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit \"src/test/**/*.test.js\"",
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
